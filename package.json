@@ -9,9 +9,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.5",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "abort-controller": "^3.0.0",
     "meteor-node-stubs": "^1.2.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.24.0"
   },
   "meteor": {
     "mainModule": {
@@ -26,7 +32,6 @@
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minipolarbear1/meteor-emotion-test.git"

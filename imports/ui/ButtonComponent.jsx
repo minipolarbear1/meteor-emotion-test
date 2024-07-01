@@ -21,12 +21,14 @@ const Button = styled.button`
 
 function ButtonComponent({}) {
     const [count, setCount] = useState(0);
-    console.log('buttonComponent');
+
     return (
-        <div>
-            Count: {count} <br />
-            <Button onClick={() => setCount((count) => count + 1)}>Click Me!</Button>
-        </div>
+        <>
+            <div>
+                Count: {count} <br />
+                <Button onClick={() => setCount((count) => count + 1)}>Click Me!</Button>
+            </div>
+        </>
     );
 }
 

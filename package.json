@@ -15,31 +15,17 @@
     "meteor-node-stubs": "^1.2.7",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
+    "react-router-bootstrap": "^0.26.3",
     "react-router-dom": "^6.24.0"
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.jsx",
+      "client": "imports/startup/both/main.jsx",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
-  },
-  "version": "1.0.0",
-  "description": "meteor Emotion Test",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/minipolarbear1/meteor-emotion-test.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/minipolarbear1/meteor-emotion-test/issues"
-  },
-  "homepage": "https://github.com/minipolarbear1/meteor-emotion-test#readme"
+  }
 }
